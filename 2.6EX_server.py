@@ -21,9 +21,6 @@ import logging
 QUEUE_LEN = 1
 MAX_PACKET = 1024
 SERVER_NAME = 'gals server'
-my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-my_socket.bind(('0.0.0.0', 3034))
-my_socket.listen(QUEUE_LEN)
 logging.basicConfig(filename='ex2_6.log ',level=logging.INFO,
                     format='%(asctime)s %(name)s - %(levelname)s - %(message)s')
 
@@ -60,6 +57,10 @@ def main():
     according to the clients commands
     :return: readable_time or random number (1-10) or SERVER_NAME or socket.close
     """
+
+    my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    my_socket.bind(('0.0.0.0', 3034))
+    my_socket.listen(QUEUE_LEN)
     while True:
         client_socket, client_address = my_socket.accept()
         try:

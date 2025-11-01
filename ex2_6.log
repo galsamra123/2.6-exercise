@@ -1,0 +1,34 @@
+2025-11-01 16:07:44,817 root - INFO - all asserts passed
+2025-11-01 16:07:44,817 root - INFO - server up and running
+2025-11-01 16:07:46,946 root - INFO - a connection was made with client socket
+2025-11-01 16:07:56,264 root - INFO - the client socket is closed
+2025-11-01 16:08:02,907 root - CRITICAL - received socket error [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-01 16:08:06,669 root - CRITICAL - received socket error [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-01 16:08:13,246 root - INFO - all asserts passed
+2025-11-01 16:08:13,246 root - INFO - server up and running
+2025-11-01 16:08:14,645 root - INFO - a connection was made with client socket
+2025-11-01 16:08:22,558 root - INFO - the request is name
+2025-11-01 16:08:25,145 root - INFO - the request is exit
+2025-11-01 16:08:25,145 root - INFO - the client socket is closed
+2025-11-01 22:07:45,183 root - INFO - all asserts passed
+2025-11-01 22:07:45,184 root - INFO - server up and running
+2025-11-01 22:07:54,103 root - INFO - a connection was made with client socket
+2025-11-01 22:07:57,565 root - ERROR - the request was not a supported command
+2025-11-01 22:08:03,947 root - ERROR - the request was not 4 bytes long
+2025-11-01 22:08:03,947 root - INFO - the request is name
+2025-11-01 22:08:05,641 root - INFO - the request is rand
+2025-11-01 22:08:08,224 root - INFO - the request is exit
+2025-11-01 22:08:08,224 root - INFO - the client socket is closed
+2025-11-01 22:08:14,597 root - INFO - a connection was made with client socket
+2025-11-01 22:08:16,899 root - INFO - the request is time 
+2025-11-01 22:08:19,544 root - INFO - the request is name
+2025-11-01 22:08:21,453 root - INFO - the request is exit
+2025-11-01 22:08:21,453 root - INFO - the client socket is closed
+2025-11-01 22:08:32,178 root - CRITICAL - received socket error [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-01 22:08:36,276 root - CRITICAL - received socket error [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-01 22:08:40,042 root - INFO - all asserts passed
+2025-11-01 22:08:40,042 root - INFO - server up and running
+2025-11-01 22:08:41,858 root - INFO - a connection was made with client socket
+2025-11-01 22:08:49,467 root - INFO - the request is rand
+2025-11-01 22:08:52,206 root - INFO - the request is exit
+2025-11-01 22:08:52,206 root - INFO - the client socket is closed
